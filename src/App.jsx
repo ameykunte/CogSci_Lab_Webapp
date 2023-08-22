@@ -1,4 +1,4 @@
-import "./App.css";
+
 
 function App() {
   return (
@@ -50,6 +50,7 @@ function App() {
                 </li>
               </ul>
             </div>
+            
           </div>
         </header>
         {/*/header*/}
@@ -62,6 +63,14 @@ function App() {
                     <div className="col-sm-12">
                       <div className="carousel-content center centered">
                         <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+
                         <h2 className="boxed animation animated-item-1 fade-down">
                           Perception Engineering Group
                         </h2>
@@ -87,6 +96,8 @@ function App() {
           {/*/.carousel*/}
         </section>
         {/*/#main-slider*/}
+      </div>
+      <div>
         <div id="content-wrapper">
           <section id="services" className="white">
             <div className="container">
@@ -230,6 +241,7 @@ function App() {
                   </div>
                 </div>
               </div>
+             <br /> 
               <div className="row">
                 <div className="col-md-10 col-md-offset-1 fade-up">
                   <h4>
@@ -257,6 +269,13 @@ function App() {
                 </div>
                 <div className="col-md-4 fade-up" />
               </div>
+              <br />
+              <br />
+              <br />
+              
+
+              
+
               <div className="gap" />
             </div>
           </section>
@@ -1091,7 +1110,7 @@ function App() {
               </div>
             </div>
           </section>
-          <section id="graduates" className="white">
+          <section id="graduates" className="divider-section">
             <div className="container">
               <div className="gap" />
               <div className="row">
@@ -1204,8 +1223,7 @@ function App() {
               </div>
             </div>
           </section>
-          <div className="gap" />
-          <section id="contact" className="divider-section">
+          <section id="contact" className="white">
             <div className="container">
               <div className="center fade-down section-heading">
                 <h2 className="main-title">Get In Touch</h2>
@@ -1229,12 +1247,7 @@ function App() {
               {/* row */}
             </div>
           </section>
-          <div className="gap" />
         </div>
-        <div className="gap" />
-
-
-        {/*  */}
       </div>
     </>
   );
