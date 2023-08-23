@@ -12,7 +12,6 @@ function App() {
     <>
       <div>
         {hero()}
-
       </div>
       <div>
         <div id="content-wrapper">
