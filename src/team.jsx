@@ -3,17 +3,10 @@ import React from 'react';
 // Define an array of team members with their data
 const teamMembers = [
   {
-    name: 'Dr. Kavita Vemuri',
-    role: 'Assistant Professor',
-    bio:
-      'Cognitive neuroscience of empathy, game design and engineering, innovation and entrepreneurship, fiber optic and liquid crystal devices for optical communications and sensors, control systems',
+    name: 'Kavita Vemuri',
+    role: 'Professor',
+    bio:  'Cognitive Neuroscience, Neuroeconomics, Neurogaming, Serious Games, Empathy, Vision, Pupillometry, EEG, fMRI, VR, AR, AI, ML',
     imageSrc: 'images/team/kavita.jpg',
-  },
-  {
-    name: 'Supreeth Menon',
-    role: 'Undergrad Researcher',
-    bio: 'Spine Kinematics modelling with data collected using Motion Capture system.',
-    imageSrc: 'images/team/Supreeth.jpg',
   },
   {
     name: 'Ayushi Agarawal',
@@ -37,44 +30,16 @@ const teamMembers = [
     imageSrc: 'images/team/sudheshna.jpeg',
   },
   {
-    name: 'Amey Kunte',
-    role: 'Undergrad Researcher',
-    bio:
-      'Researching the role of trust in economic behaviour using behavioural economics experiments',
-    imageSrc: 'images/team/Amey.jpg',
+    name: 'Nancy Hada',
+    role: 'Postgrad Researcher',
+    bio: 'Feature Extraction and Object Detection from Indian Tribal Paintings',
+    imageSrc: 'images/team/Nancy.jpg',
   },
   {
-    name: 'Tanvi Narsapur',
+    name: 'Nikunj Nawal',
     role: 'Undergrad Researcher',
-    bio: 'Understanding the evolution of trust, fairness and altruism in children population',
-    imageSrc: 'images/team/Tanvi.jpeg',
-  },
-  {
-    name: 'Harshit Aggarwal',
-    role: 'Undergrad Researcher',
-    bio:
-      'Understanding the visual eye movements to identify central and peripheral vision perception through pupillary responses.',
-    imageSrc: 'images/team/harshit.jpeg',
-  },
-  {
-    name: 'Raghav Raj Dwivedi',
-    role: 'Undergrad Researcher',
-    bio:
-      'Correlations between personal financial behaviour and real world geopolitics through game design',
-    imageSrc: 'images/team/Raghav.jpg',
-  },
-  {
-    name: 'Aarnav Nagariya',
-    role: 'Undergrad Researcher',
-    bio:
-      'Behaviour of Two-Wheeler Indian Drivers on Urban Roads, with Comparative Analysis between Experienced and Novice drivers',
-    imageSrc: 'images/team/Aarnav.jpg',
-  },
-  {
-    name: 'Parth Maradia',
-    role: 'Undergrad Researcher',
-    bio: 'Cognitive Empathy towards Rape Victims',
-    imageSrc: 'images/team/Parth.jpg',
+    bio: 'Understanding the effect of wavelength on refractive error in young adults using pupillary responses',
+    imageSrc: 'images/team/Nikunj.jpg',
   },
   {
     name: 'Giri Prasath',
@@ -83,41 +48,16 @@ const teamMembers = [
     imageSrc: 'images/team/Giri_Prasath.jpeg',
   },
   {
-    name: 'Aditya Kondai',
+    name: 'Tanvi Narsapur',
     role: 'Undergrad Researcher',
-    bio:
-      'Analysis of effect of AI-based facial assessment tools on self-confidence and finding relation between self-confidence and self-objectification levels.',
-    imageSrc: 'images/team/Aditya.jpeg',
+    bio: 'Understanding the evolution of trust, fairness and altruism in children population',
+    imageSrc: 'images/team/Tanvi.jpeg',
   },
   {
-    name: 'Keerthi Gouravarapu',
+    name: 'Prateek Sancheti',
     role: 'Undergrad Researcher',
-    bio: 'EEG Analysis for finding patterns and abnormalities between healthy and stroke patients',
-    imageSrc: 'images/team/keerthi.jpg',
-  },
-  {
-    name: 'Kunal Lahoti',
-    role: 'Undergrad Researcher',
-    bio: 'Understanding the effect of loss-framing in insurance purchase decisions using a game-like interface',
-    imageSrc: 'images/team/kunal.jpg',
-  },
-  {
-    name: 'Divyansh Tiwari',
-    role: 'Undergrad Researcher',
-    bio: 'Biomechanics - spine/body kinematics using marker/markerless motion capture',
-    imageSrc: 'images/team/Divyansh.jpg',
-  },
-  {
-    name: 'Nandini Maroo',
-    role: 'Undergrad Researcher',
-    bio: 'EEG Analysis for finding patterns and abnormalities between healthy and stroke patients',
-    imageSrc: 'images/team/Nandini.jpeg',
-  },
-  {
-    name: 'Nikunj Nawal',
-    role: 'Undergrad Researcher',
-    bio: 'Understanding the effect of wavelength on refractive error in young adults using pupillary responses',
-    imageSrc: 'images/team/Nikunj.jpg',
+    bio: 'Analysing M&A Deals in Indian Stock Market && Who-is-Who: An Online Identity Theft Detection Portal',
+    imageSrc: 'images/team/Prateek.jpg',
   },
   {
     name: 'B Vaibhaw Kumar',
@@ -127,13 +67,53 @@ const teamMembers = [
     imageSrc: 'images/team/Vaibhaw.jpg',
   },
   {
+    name: 'Amey Kunte',
+    role: 'Undergrad Researcher',
+    bio:
+      'Researching the role of trust in economic behaviour using behavioural economics experiments',
+    imageSrc: 'images/team/Amey.jpg',
+  },
+  {
+    name: 'Divyansh Tiwari',
+    role: 'Undergrad Researcher',
+    bio: 'Biomechanics - spine/body kinematics using marker/markerless motion capture',
+    imageSrc: 'images/team/Divyansh.jpg',
+  },
+
+  {
+    name: 'Parth Maradia',
+    role: 'Undergrad Researcher',
+    bio: 'Cognitive Empathy towards Rape Victims',
+    imageSrc: 'images/team/Parth.jpg',
+  },
+  {
     name: 'Prerak Srivastava',
     role: 'Undergrad Researcher',
     bio:
       'Procedural Maze Generation for Education: Building an app to allow educators educators to easily generate and customize mazes and teach concepts through them',
     imageSrc: 'images/team/prerak.jpg',
   },
+  {
+    name: 'Nandini Maroo',
+    role: 'Undergrad Researcher',
+    bio: 'EEG Analysis for finding patterns and abnormalities between healthy and stroke patients',
+    imageSrc: 'images/team/Nandini.jpeg',
+  },
+  {
+    name: 'Keerthi Gouravarapu',
+    role: 'Undergrad Researcher',
+    bio: 'EEG Analysis for finding patterns and abnormalities between healthy and stroke patients',
+    imageSrc: 'images/team/keerthi.jpg',
+  },
+  {
+    name: 'Harshit Aggarwal',
+    role: 'Undergrad Researcher',
+    bio:
+      'Understanding the visual eye movements to identify central and peripheral vision perception through pupillary responses.',
+    imageSrc: 'images/team/harshit.jpeg',
+  },
 ];
+
 
 
 const Team = () => {
@@ -169,9 +149,9 @@ const Team = () => {
                   </div>
                   <div className="team-content fade-up">
                     <h5>
-                      {member.name}
+                      {member.name}<br></br>
                       <small className="role muted">{member.role}</small>
-                    </h5>
+                    </h5><br></br>
                     <p>{member.bio}</p>
                   </div>
                 </div>
