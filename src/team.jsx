@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'Kavita Vemuri',
     role: 'Professor',
-    bio:  'Cognitive Neuroscience, Neuroeconomics, Neurogaming, Serious Games, Empathy, Vision, Pupillometry, EEG, fMRI, VR, AR, AI, ML',
+    bio: 'Cognitive Neuroscience, Neuroeconomics, Neurogaming, Serious Games, Empathy, Vision, Pupillometry, EEG, fMRI, VR, AR, AI, ML',
     imageSrc: 'images/team/kavita.jpg',
   },
   {
@@ -78,6 +78,13 @@ const teamMembers = [
     role: 'Undergrad Researcher',
     bio: 'Biomechanics - spine/body kinematics using marker/markerless motion capture',
     imageSrc: 'images/team/Divyansh.jpg',
+  },
+  {
+    name: 'Akash CR',
+    role: 'Undergrad Researcher',
+    bio: 'Biomechanics - spine/body kinematics using marker/markerless motion capture',
+    imageSrc: 'images/team/Akash.jpg',
+
   },
 
   {
