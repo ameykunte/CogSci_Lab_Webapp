@@ -74,7 +74,7 @@ const Graduates = () => (
         <div className="row">
           <div className="col-md-12">
             <div className="center gap fade-down section-heading">
-              <h2 className="main-title">Our Graduates</h2>
+              <h2 className="main-title">Alumni</h2>
               <hr />
             </div>
           </div>

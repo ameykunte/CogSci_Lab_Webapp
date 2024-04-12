@@ -37,7 +37,7 @@ const hero = () => {
                 <a href="#blog">Publications</a>
               </li>
               <li>
-                <a href="#graduates">Graduates</a>
+                <a href="#graduates">Alumni</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>

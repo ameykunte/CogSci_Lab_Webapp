@@ -4,7 +4,7 @@ import React from 'react';
 const teamMembers = [
   {
     name: 'Kavita Vemuri',
-    role: 'Professor',
+    role: 'Assistant Professor',
     bio: 'Cognitive Neuroscience, Neuroeconomics, Neurogaming, Serious Games, Empathy, Vision, Pupillometry, EEG, fMRI, VR, AR, AI, ML',
     imageSrc: 'images/team/kavita.jpg',
   },
