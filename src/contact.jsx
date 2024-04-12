@@ -12,7 +12,7 @@ const contact = () => {
             <div className="col-md-4 fade-up text-center">
               <p>
                 <span className="icon icon-home" />
-                B5, Vindhya, IIIT Hyderabad, India
+                B5, Vindhya, IIIT Hyderabad - 500032, India
                 <br />
                 <span className="icon icon-envelop" />
                 <a href="#">kvemuri@iiit.ac.in</a> <br />
